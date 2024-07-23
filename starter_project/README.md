@@ -30,6 +30,12 @@ API_KEY=your_api_key_here
 To access the server on localhost, you typically use the following URL
 http://localhost:8080/
 
+# NOTE:
+Please use Node.js version v11.15.0
+Use Git Bash to run npm commands
+Use the command npm i --legacy-peer-deps instead of npm install
+You might need to install Python3 to avoid some errors caused by the lack of Python3
+
 # Project Instructions
 
 This repo is your starter code for the project. It is the same as the starter code we began with in lesson 2. Install and configure Webpack just as we did in the course. Feel free to refer to the course repo as you build this one, and remember to make frequent commits and to create and merge branches as necessary!
