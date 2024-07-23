@@ -38,6 +38,14 @@
             <em> ©2024</em><br>
             <em>Evaluate a News Article with Natural Language Processing Design By HoangNM52@fpt.com</em>
         </footer>
-
+        <script>
+            // Check that service workers are supported
+            if ('serviceWorker' in navigator) {
+                // Use the window load event to keep the page load performant
+                window.addEventListener('load', () => {
+                    navigator.serviceWorker.register('/service-worker.js');
+                });
+            }
+        </script>
     </body>
 </html>
